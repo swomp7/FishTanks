@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_filter": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "fish-tanks:filter"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe1": {
+        "conditions": {
+          "recipe": "fish-tanks:filter1"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      },
+      "has_the_recipe2": {
+        "conditions": {
+          "recipe": "fish-tanks:filter2"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      },
+      "has_the_recipe3": {
+        "conditions": {
+          "recipe": "fish-tanks:filter3"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_filter",
+        "has_the_recipe1",
+        "has_the_recipe2",
+        "has_the_recipe3"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "fish-tanks:filter1",
+        "fish-tanks:filter2",
+        "fish-tanks:filter3"
+      ]
+    },
+    "sends_telemetry_event": false
+  }

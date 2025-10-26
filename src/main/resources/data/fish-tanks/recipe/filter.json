@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "CPC",
+        "CRC"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "C": "minecraft:cobblestone",
+        "P": "minecraft:piston",
+        "R": "minecraft:redstone"
+    },
+    "result": {
+        "id": "fish-tanks:filter",
+        "count": 1
+    }
+}

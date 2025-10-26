@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#i#",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "#": "minecraft:flint",
+        "i": "minecraft:iron_ingot",
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "fish-tanks:tank_builder",
+        "count": 1
+    }
+}

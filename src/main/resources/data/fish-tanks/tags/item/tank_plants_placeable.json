@@ -1,0 +1,22 @@
+{
+    "values": [
+        "minecraft:kelp",
+        "minecraft:seagrass",
+        {
+            "id": "shellfish:rockweed",
+            "required": false
+        },
+        {
+            "id": "shellfish:paddleweed",
+            "required": false
+        },
+        {
+            "id": "shellfish:eelgrass",
+            "required": false
+        },
+        {
+            "id": "shellfish:sea_lettuce",
+            "required": false
+        }
+    ]
+}

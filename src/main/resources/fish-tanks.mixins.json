@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "fish.tanks.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FishGetterMixin",
+		"PlantGetterMixin",
+		"RotateModeMixin",
+		"CauldronMixin"
+	],
+	"client": [
+		"WaterMixin",
+		"RenderGlassMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

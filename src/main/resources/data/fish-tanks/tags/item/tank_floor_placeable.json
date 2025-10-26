@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:sand",
+        "minecraft:red_sand",
+        "minecraft:gravel",
+        "minecraft:dirt",
+        "minecraft:cobblestone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:clay",
+        "minecraft:mud"
+    ]
+}

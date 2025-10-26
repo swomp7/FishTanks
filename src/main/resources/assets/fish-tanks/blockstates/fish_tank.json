@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "dirty=false,open_top=false,connected_textures=false": {
+      "model": "fish-tanks:block/fish_tank"
+    },
+    "dirty=true,open_top=false,connected_textures=false": {
+      "model": "fish-tanks:block/fish_tank_dirty"
+    },
+    "dirty=false,open_top=true,connected_textures=false": {
+      "model": "fish-tanks:block/fish_tank_wt"
+    },
+    "dirty=true,open_top=true,connected_textures=false": {
+      "model": "fish-tanks:block/fish_tank_dirty_wt"
+    },
+    "dirty=false,open_top=false,connected_textures=true": {
+      "model": "fish-tanks:block/fish_tank_ct"
+    },
+    "dirty=true,open_top=false,connected_textures=true": {
+      "model": "fish-tanks:block/fish_tank_dirty_ct"
+    },
+    "dirty=false,open_top=true,connected_textures=true": {
+      "model": "fish-tanks:block/fish_tank_wt_ct"
+    },
+    "dirty=true,open_top=true,connected_textures=true": {
+      "model": "fish-tanks:block/fish_tank_dirty_wt_ct"
+    }
+  }
+}

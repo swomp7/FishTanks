@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#W#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:glass",
+        "W": "minecraft:water_bucket"
+    },
+    "result": {
+        "id": "fish-tanks:fish_tank",
+        "count": 1
+    }
+}

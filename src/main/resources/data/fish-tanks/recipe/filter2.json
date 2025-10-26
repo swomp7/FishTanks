@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "#fish-tanks:filter_level_2",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "fish-tanks:filter_bag",
+    "components": {
+      "fish-tanks:filter_data": {
+        "status": 20000,
+        "maxStatus": 20000,
+        "strength": 2
+      }
+    },
+    "count": 1
+  }
+}

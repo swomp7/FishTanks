@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fish-tanks:block/filter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fish-tanks:block/filter"
+    },
+    "facing=south": {
+      "model": "fish-tanks:block/filter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fish-tanks:block/filter",
+      "y": 270
+    }
+  }
+}

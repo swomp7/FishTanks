@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fish-tanks",
+	"version": "${version}",
+	"name": "FishTanks",
+	"description": "Adds brand new fish tank blocks to the game.",
+	"authors": [
+		"Anthony Turcinovic"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fish-tanks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fish.tanks.FishTanks"
+		],
+		"client": [
+			"fish.tanks.client.FishTanksClient"
+		]
+	},
+	"mixins": [
+		"fish-tanks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

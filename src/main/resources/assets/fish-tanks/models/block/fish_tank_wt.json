@@ -1,0 +1,9 @@
+{
+  "parent": "fish-tanks:block/cube_all_inner_faces",
+  "textures": {
+    "all": "fish-tanks:block/fish_tank",
+    "inside": "fish-tanks:block/fish_tank",
+    "top": "fish-tanks:block/blank",
+    "intop": "fish-tanks:block/blank"
+  }
+}

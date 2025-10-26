@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fish-tanks:fish_tank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_fish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#fish-tanks:fish_buckets"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fish"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fish-tanks:fish_tank"
+    ]
+  }
+}
